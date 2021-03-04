@@ -9,6 +9,11 @@ Use ES6 whenever possible.
 "use strict";
 
 // Write code here
+function sum(...args) {
+  let result = args.reduce((total, num) => total + num, 0);
+
+  console.log(result);
+}
 
 sum(1, 3);
 //4
