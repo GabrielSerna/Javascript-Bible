@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "name": "Javascript-Bible",
+  "description": "This repository is for \"JavaScript Basics\" section of my course \"JavaScript Bible\"",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev":  "nodemon start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielSerna/Javascript-Bible.git"
+  },
+  "keywords": [],
+  "author": "Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielSerna/Javascript-Bible/issues"
+  },
+  "homepage": "https://github.com/GabrielSerna/Javascript-Bible#readme"
+}
