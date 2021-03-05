@@ -28,6 +28,10 @@ var person2 = {
 };
 
 // Write function here
+let shortPerson = (obj) => {
+let object = {n: obj.name, c: obj.info.country, a: obj.info.age, p: obj.postsQuantity = 0};
+return object;
+}
 
 console.log(shortPerson(person1));
 // {n: "Mike", c: "Spain", a: 23, p: 100}
