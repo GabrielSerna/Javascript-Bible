@@ -10,13 +10,15 @@ Initial greeting string "Hey, that's" must be defined inside IIFE.
 "use strict";
 
 // var greeting = (Write IIFE here);
+let greeting = () => {
 
-console.log(greeting.greet("Bob"));
+
+
+}
+  console.log(greeting.greet("Bob"));
 // Hey, that's Bob
 
-console.log(
-  greeting.changeGreeting("Good Morning from")
-);
+console.log(greeting.changeGreeting("Good Morning from"));
 // undefined
 
 console.log(greeting.greet("Emily"));
