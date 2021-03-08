@@ -29,9 +29,7 @@ var greeting = (() => {
 console.log(greeting.greet("Bob"));
 // Hey, that's Bob
 
-console.log(
-  greeting.changeGreeting("Good Morning from")
-);
+console.log(greeting.changeGreeting("Good Morning from"));
 // undefined
 
 console.log(greeting.greet("Emily"));

@@ -10,11 +10,21 @@ Initial greeting string "Hey, that's" must be defined inside IIFE.
 "use strict";
 
 // var greeting = (Write IIFE here);
-let greeting = () => {
+let greeting = (() => {
+  let greetingString = "Hey, that's";
 
+  let greet = name => `${greetingString} ${name}`;
 
+  function changeGreeting (newGreetingString) {
+    greetingString = newGreetingString;
+  }
 
-}
+  return {
+    greet,
+    changeGreeting
+  };
+})();
+
   console.log(greeting.greet("Bob"));
 // Hey, that's Bob
 
